@@ -1,0 +1,7 @@
+let mydate = new Date()
+console.log(mydate)
+console.log(mydate.toString())
+console.log(mydate.toLocaleDateString())
+console.log(mydate.toDateString())
+let createddate = new Date("2023","0","14")
+console.log(createddate.toDateString())
