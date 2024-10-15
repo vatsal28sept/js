@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO</title>
+</head>
+<body>
+    <p class="myClass">This Is Static Content</p>
+    <button onclick="setData()">Click Me!!!</button>
+
+  
+
+    <script>
+        
+        function setData(){
+            document.getElementsByClassName("myClass")[0].innerHTML = "This Is Dynemic Content";
+        }
+
+     
+    </script>
+</body>
+</html>
